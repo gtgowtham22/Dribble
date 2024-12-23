@@ -36,17 +36,18 @@ drib html
   <title>Dribbble Clone</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
   <style>
-    .top-right-info {
+    .top-center-info {
       position: absolute;
       top: 10px;
-      right: 10px;
+      left: 50%;
+      transform: translateX(-50%);
       z-index: 1030;
     }
   </style>
 </head>
 <body>
-  <!-- Top-right Info -->
-  <div class="top-right-info">
+  <!-- Top-Center Info -->
+  <div class="top-center-info">
     <span class="badge bg-primary text-white fs-5 px-3 py-2 shadow-sm">
       G.T. Gowtham | Ref No: 24901330
     </span>
@@ -178,7 +179,7 @@ drib html
 
 ```
 ## OUTPUT:
-![alt text](<ex 10.png>)
-
+![alt text](<ex 10 screen shot 1.png>)
+![alt text](<ex 10 screen shot 2.png>)
 ## RESULT:
 The Project for responsive web design using Bootstrap is completed successfully.
